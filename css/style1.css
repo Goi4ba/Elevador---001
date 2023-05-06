@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* classes referentes ao elevador */
+.espElev {
+    position: sticky;
+    height: 80vh;
+    width: 38.81%;
+    margin-left: 417px;
+    margin-top: 0%;              
+    padding: 0.1px;
+}
+.espElev1 {
+    position: sticky;
+    height: 70.5vh;
+    width: 100%;
+    background-image: linear-gradient( to right, gray, rgb(61, 56, 56));
+    margin-left: 0px;
+    margin-top: 4.4%;              
+    padding: 0.1px;
+}
+
+
+.pes {
+    position: relative;
+    height: 80vh;
+    margin: auto;
+    margin-top: -49vh;
+}
+
+.pes img {    
+    height: 40vh;
+    position: sticky;
+    margin: auto;
+    margin-left: 0.5vw;
+    margin-top: 49%;    
+}
+
+.pE {    
+    background-color: black;
+    height: 70.5vh;
+    width: 50%;
+    margin-top: -72vh;
+    opacity:0.4;
+    box-shadow:0px 0px 0px 10px rgb(65, 63, 63) inset;
+    border-right: 1px solid rgb(24, 24, 26);
+}
+
+.pD {
+    background-color: black;
+    height: 70.5vh;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -93%;
+    opacity:0.4;
+    box-shadow:0px 0px 0px 10px rgb(65, 63, 63) inset;
+    border-left: 1px solid rgb(24, 24, 26)
+}
+
+/*Botões de na lateral da tela*/
+.butaoDoElevador{
+    background-color: darkgrey;
+    height: 100vh;
+    width: 10vw;
+    position: fixed;
+}
+.butaoDoElevador1{
+    position: fixed;
+    margin-left:0%;
+    transition: 2s;
+}
+.butaoDoElevador2{
+    position: fixed;
+    margin-left:-10%;
+    transition: 2s;
+}
+.ceta{
+    background-color: darkgrey;
+    color: darkgrey;
+    height: 50px;
+    width: 20px;
+    position: fixed;
+    margin-left: 9.5vw;
+    margin-top: 45vh;
+    border: 0px solid;
+}
+.inic {
+    width: 8%;
+    height: 18vh;
+    position: fixed;
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+    border: 0px solid;
+    margin-left: 10px;
+}
+
+.subir {
+    width: 8%;
+    height: 18vh;
+    position: fixed;
+    margin-top: 20vh;
+    border-radius: 10%;
+    border: 0px solid;
+    margin-left: 10px;
+}
+
+.descer {
+    width: 8%;
+    height: 18vh;
+    position: fixed;
+    margin-top: 40vh;
+    border-radius: 10%;
+    border: 0px solid;
+    margin-left: 10px;
+}
+
+.entrar {
+    width: 8%;
+    height: 18vh;
+    position: fixed;
+    margin-top: 60vh;
+    border-radius: 10%;
+    border: 0px solid;
+    margin-left: 10px;
+}
+
+.sair {
+    width: 8%;
+    height: 18vh;
+    position: fixed;
+    margin-top: 80vh;
+    border-radius: 10%;
+    border: 0px solid;
+    margin-left: 10px;
+}
+/*musica*/
+
+.Bmusica {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    margin-top: 10px;
+    border-radius: 10%;
+    margin-left: 10px;
+    border: 0px solid;
+    background-color: red;
+}
+.Mmusica{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    margin-top: 70px;
+    border-radius: 10%;
+    margin-left: 10px;
+    border: 0px solid;
+}
+.seleçãoDeMusica{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    margin-top: 130px;
+    border-radius: 10%;
+    margin-left: 10px;
+    border: 0px solid;
+    background-color: black;
+}
+.boximaMusica{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    margin-top: 190px;
+    border-radius: 10%;
+    margin-left: 10px;
+    border: 0px solid;
+    background-color: rgb(255, 255, 255);
+}
+.telaDaMusica{
+    background-color: darkgray;
+    margin-left: 95%;
+    width: 70px;
+    height: 250px;
+    position: fixed;
+}
+/* botão elevador  e led de quantas pessoas */
+.bt {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 30vh;
+    margin-left: -30px;
+    box-shadow:0px 0px 0px 3px rgb(116, 108, 108) inset;
+}
+
+.andar {
+    width: 34%;
+    height: 6vh;
+    margin-top: 10vh;
+    margin-left: 33%;
+    margin-right: 20%;
+    background-color: black;
+    color: red;
+}
+
+.qtdPes {
+    width: 20%;
+    height: 6vh;
+    box-shadow:0px 0px 0px 4px rgb(65, 63, 63) inset;
+    border: 0px solid rgb(65, 63, 63);
+    margin-top: 13px;
+    margin-left: 13px;
+}
+
+button img{
+    width: 70%;
+    height: 65%;
+}
+
+/* movimentar portas */
+.abrirEsq {
+    width: 0px;
+    transition: 3s;
+}
+
+.abrirDir {
+    margin-left: 100%;
+    width: 0px;
+    transition: 3s;
+}
+
+.fecharEsq {
+    margin-left: 0;
+    transition: 3s;
+}
+
+.fecharDir {
+    margin-left: 50%;
+    transition: 3s;
+}
+
+/* criar andares */
+.andares {
+    height: 100vh;
+    width: 100vw;
+    
+}
+

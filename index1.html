@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style1.css">        
+        <title>Elevador</title>
+    </head>
+    <body>
+        <div class="butaoDoElevador">
+            <button class="ceta" onclick="aparecer()" value="apareceu"><img src="images/ceta.png"></button>
+            <button class="inic" onclick="iniciar()" value="Inicializar"><img src="images/0.png"></button>
+            <button class="subir" onclick="iniciarElevador.subir(1)"><img src="images/1.png"></button>
+            <button class="descer" onclick="iniciarElevador.descer(1)"><img src="images/2.png"></button>
+            <button class="entrar" onclick="iniciarElevador.entrar(1)" value="Entrar"><img src="images/3.png"></button>
+            <button class="sair" onclick="iniciarElevador.sair(1)" value="Sair"><img src="images/4.png"></button>
+        </div>    
+        
+        <div class="telaDaMusica">
+        <button class="Bmusica" onclick="musica()" value="iniciaMusical"><img src="images/5.png"></button>
+        <button class="Mmusica" onclick="munda()" value="a"><img src="images/cetasubido.png"></button>
+        <div class="seleçãoDeMusica"> </div>
+        <div class="boximaMusica"> </div>
+        </div>
+        
+        <div class="espElev">
+            <button class="andar">Térreo</button>
+            <div class="espElev1">
+            <div>
+                <button class="qtdPes">0</button>
+            </div>
+            <div><button class="bt" onclick="iniciarElevador.abrirPorta()" value="Abrir"></button></div>
+            
+            <div class="pes"></div>
+            <div class="pE">
+                
+            </div>
+            <div class="pD">
+                
+            </div>
+        </div>
+        </div>       
+        <audio src="midia/cino.wav"></audio>
+        <audio src="midia/musica0.wav" class="musica0"></audio>
+        <audio src="midia/musica1.wav" class="musica1"></audio>
+        <audio src="midia/musica2.wav" class="musica2"></audio>
+        <audio src="midia/musica3.wav" class="musica3"></audio>
+        <script src="js/script1.js"></script>
+        <script>preparaAndar()</script>
+    </body>
+</html>
